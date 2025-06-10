@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ViajaFácil - Tramitamos tu visado y financiamos tu viaje</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3, h4 {
+      color: #0077cc;
+    }
+    form input, form select {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .testimonial {
+      background: #f0f8ff;
+      border-left: 4px solid #0077cc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ViajaFácil</h1>
+    <h2>🌟 Consigue tu visado sin líos y paga tu viaje en cuotas</h2>
+
+    <p>Te ayudamos a tramitar el visado para cualquier destino y te ofrecemos opciones de financiación para que no tengas que pagar todo junto. Sin colas, sin errores y con atención personalizada.</p>
+
+    <h3>🔄 Proceso:</h3>
+    <ol>
+      <li>Rellena el formulario.</li>
+      <li>Uno de nuestros agentes te contactará por WhatsApp.</li>
+      <li>Recibe asesoramiento y empieza tu trámite al momento.</li>
+    </ol>
+
+    <form name="registro" method="POST" data-netlify="true">
+      <label>Nombre completo:<br><input type="text" name="nombre" required /></label><br>
+      <label>Teléfono o WhatsApp:<br><input type="tel" name="telefono" required /></label><br>
+      <label>Email:<br><input type="email" name="email" required /></label><br>
+      <label>País de destino:<br><input type="text" name="pais" required /></label><br>
+      <label>¿Quieres financiación?<br>
+        <select name="financiacion">
+          <option value="si">Sí</option>
+          <option value="no">No</option>
+          <option value="no estoy seguro">No estoy seguro</option>
+        </select>
+      </label><br><br>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+
+    <hr>
+    <h4>👍 Testimonios:</h4>
+    <div class="testimonial">"Me ayudaron con todo para mi visado a Canadá, rápido y sin errores. 100% recomendados." - Juan (Madrid)</div>
+    <div class="testimonial">"Pensaba que no podría pagar el viaje... pero con las cuotas fue posible." - Carla (Bogotá)</div>
+
+    <footer>
+      Esta landing es personalizada para uso por comerciales afiliados a ViajaFácil. &copy; 2025
+    </footer>
+  </div>
+</body>
+</html>
